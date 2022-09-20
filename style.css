@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "InfinitySans-RegularA1";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-RegularA1.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "InfinitySans-RegularA1";
+}
+
+/* div {
+  background-color: chocolate;
+}
+*/
+h1 {
+  background-color: blue;
+}
+
+button {
+  background-color: rgb(225, 14, 14);
+  border: 1px solid white;
+  padding: 12px;
+  margin-top: 12px;
+  margin-left: 12px;
+  font-size: 36px;
+  font-family: "InfinitySans-RegularA1";
+  box-shadow: -4px -4px 0 -2px pink, 4px 4px 0 -2px pink;
+  transition: all 0.5s;
+}
+
+button:hover {
+  box-shadow: -4px -4px 0 2px grey, 4px 4px 0 2px grey;
+}
+
+button:active {
+  background-color: black;
+  transition: all 0.1s;
+}
+
+/* MyName 앞에 .점을 붙이는 이유는 클래스라서 그렇다. */
+.myName {
+  text-decoration: underline solid #2908e2;
+}

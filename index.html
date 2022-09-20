@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <!--<span style="display: block">What is your name?</span> -->
+      <span class="myName">What is your name?</span>
+
+      <button onclick="revealMyInfo('My Name is Marie.', '.myName', '#E352B5')">
+        Search
+      </button>
+      <button onclick="revealMyInfo('저는 마리입니다.', '.myName', '#654321')">
+        확인
+      </button>
+    </div>
+    <script src="main.js"></script>
+
+    <!-- <br />  -->
+    <div>
+      <span class="myJob">What is your job?</span>
+      <!-- <span style="display: block">What is your job?</span>-->
+      <button
+        onclick="revealMyInfo('I am super ultra programmer.', '.myJob', '#E352B5')"
+      >
+        Search
+      </button>
+    </div>
+  </body>
+</html>
