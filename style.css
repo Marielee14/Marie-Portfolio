@@ -6,6 +6,25 @@
   font-style: normal;
 }
 
+@keyframes bgFadeOut {
+  0% {
+    background-color: rgb(172, 237, 8);
+  }
+
+  50% {
+    background-color: rgb(172, 237, 8);
+  }
+
+  100% {
+    background-color: transparent;
+  }
+}
+
+.myLanguage {
+  animation-name: bgFadeOut;
+  animation-duration: 3s;
+}
+
 body {
   font-family: "InfinitySans-RegularA1";
 }
