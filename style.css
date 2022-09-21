@@ -8,11 +8,11 @@
 
 @keyframes bgFadeOut {
   0% {
-    background-color: rgb(172, 237, 8);
+    background-color: rgb(73, 8, 237);
   }
 
   50% {
-    background-color: rgb(172, 237, 8);
+    background-color: rgb(73, 8, 237);
   }
 
   100% {
@@ -22,7 +22,7 @@
 
 .myLanguage {
   animation-name: bgFadeOut;
-  animation-duration: 3s;
+  animation-duration: 5s;
 }
 
 body {
