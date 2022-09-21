@@ -4,6 +4,7 @@
     format("woff");
   font-weight: normal;
   font-style: normal;
+  font-size: 36px;
 }
 
 @keyframes bgFadeOut {
@@ -20,8 +21,54 @@
   }
 }
 
+@keyframes slideIn {
+  0% {
+    margin-right: 0%;
+  }
+
+
+  50% {
+    margin-right: 20%;
+  }
+
+  100% {
+    margin-right: 0%;
+  }
+}
+
+@keyframes heartBeat {
+  0% {
+    font-size: 36px;
+  }
+  25% {
+    font-size: 44px;
+  }
+
+  50% {
+    font-size: 36px;
+  }
+
+  75% {
+    font-size: 44px;
+  }
+
+  100% {
+    font-size: 36px;
+  }
+}
+
 .myLanguage {
-  animation-name: bgFadeOut;
+  animation-name: bgFadeOut, slideIn, heartBeat;
+  animation-duration: 5s;
+}
+
+.myName {
+  animation-name: heartBeat, slideIn;
+  animation-duration: 5s;
+}
+
+.myJob {
+  animation-name: heartBeat, slideIn;
   animation-duration: 5s;
 }
 
@@ -59,6 +106,6 @@ button:active {
 }
 
 /* MyName 앞에 .점을 붙이는 이유는 클래스라서 그렇다. */
-.myName {
+/*.myName {
   text-decoration: underline solid #2908e2;
 }
